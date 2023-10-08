@@ -1,0 +1,34 @@
+.cta {
+  height: 100%;
+
+  @media (min-width: 600px) {
+    height: 70%;
+  }
+
+  @media (min-width: 800px) {
+    height: 60%;
+  }
+}
+.hero {
+  background: linear-gradient(161deg, hsla(152, 72%, 39%, 1) 53%, hsla(0, 0%, 100%, 1) 100%);
+  contain: content;
+}
+
+.heading {
+  font-family: Raleway, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.heroImage {
+  background-image: url("/Yoga-Photos/petals-edit.png");
+  position: absolute;
+  display: block;
+  z-index: 0;
+  width: 205%;
+  height: 600px;
+  bottom: 0;
+  right: -622px;
+}
+
