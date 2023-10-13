@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 
 type FadeAndScaleProps = {
   children: ReactNode;
-  className: string;
+  className?: string;
 };
 
 export const SlideInFromRight = ({
