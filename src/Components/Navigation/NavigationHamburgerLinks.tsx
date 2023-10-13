@@ -20,7 +20,7 @@ type NavLinkProps = {
 type NavigationLinksProps = {};
 
 const linkStyles =
-  "duration-300 text-white text-base md:text-lg hover:text-pink-950";
+  "duration-300 text-black text-base md:text-lg hover:text-pink-950";
 const NavLink: React.FC<NavLinkProps> = ({ text, href }) => {
   return (
     <FadeAndScale>

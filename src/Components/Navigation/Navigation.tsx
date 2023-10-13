@@ -28,25 +28,25 @@ const Navigation = () => {
       {isLargerThan720 ? (
         <nav className="col-span-9 justify-self-end mt-12 mr-4">
           <ul className={`nav-links grid-flow-col-dense grid gap-4`}>
-            <Link href="/classes" className={""}>
+            <Link href="/classes" className={"text-white"}>
               Classes
             </Link>
-            <Link href="/event" className={""}>
+            <Link href="/event" className={"text-white"}>
               Event
             </Link>
-            <Link href="/gallery" className={""}>
+            <Link href="/gallery" className={"text-white"}>
               Gallery
             </Link>
-            <Link href="/instructors" className={""}>
+            <Link href="/instructors" className={"text-white"}>
               Instructors
             </Link>
-            <Link href="/rental" className={""}>
+            <Link href="/rental" className={"text-white"}>
               Rental
             </Link>
-            <Link href="/services" className={""}>
+            <Link href="/services" className={"text-white"}>
               Services
             </Link>
-            <Link href="/specialist" className={""}>
+            <Link href="/specialist" className={"text-white"}>
               Specialist
             </Link>
           </ul>
