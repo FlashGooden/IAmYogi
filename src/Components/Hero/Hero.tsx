@@ -18,18 +18,20 @@ const Hero = () => {
         <SlideInFromRight className={`${styles.heroImage}`}>
           <span></span>
         </SlideInFromRight>
-        <h2 className={`${styles.heading} text-center p-4 self-center`}>
-          STRETCH YOUR BODY TO THE LIMIT
-        </h2>
-        <p className={"text-center text-white p-5"}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
-          quia, similique? Alias beatae consequatur dicta et eum, libero maiores
-          nam natus perferendis praesentium provident quam quas saepe sapiente
-          tenetur, vero!
-        </p>
-        <Button colorScheme={"orange"} className={"w-40 relative z-20"}>
-          Purchase
-        </Button>
+        <SlideInFromRight className={"grid justify-items-center z-30"}>
+          <h2 className={`${styles.heading} text-center p-4 self-center`}>
+            STRETCH YOUR BODY TO THE LIMIT
+          </h2>
+          <p className={"text-center text-white p-5"}>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+            quia, similique? Alias beatae consequatur dicta et eum, libero
+            maiores nam natus perferendis praesentium provident quam quas saepe
+            sapiente tenetur, vero!
+          </p>
+          <Button colorScheme={"orange"} className={"w-40 relative z-20"}>
+            Purchase
+          </Button>
+        </SlideInFromRight>
       </div>
       <SlideInFromLeft className={"row-start-6 z-10"}>
         <Image
