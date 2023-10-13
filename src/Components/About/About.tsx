@@ -22,7 +22,7 @@ const About = () => {
                 About Us
               </h2>
               <div className="about-description mt-16">
-                <p className={"bg-black txt-white p-20 text-center"}>
+                <p className={"bg-black text-white p-20 text-center"}>
                   I Am Yogi Studios was founded in 2020 as a virtual yoga studio
                   for Women of Color. In the height of the pandemic, the world
                   experienced trauma that would take a lifetime to heal. Our
