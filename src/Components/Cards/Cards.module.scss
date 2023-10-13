@@ -1,0 +1,13 @@
+.tear {
+  width: 90px;
+  aspect-ratio: 1;
+  background: #1CAB68;
+  rotate: 45deg;
+  border-radius: 0 50% 50% 50%;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: translateY(-8px) translateX(-7px) scale(1.05);
+
+  }
+}
