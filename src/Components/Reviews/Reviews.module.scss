@@ -1,0 +1,56 @@
+.reviewSliderContainer {
+  display: flex;
+  align-items: center;
+  background-color: #1CAB68;
+  justify-content: space-between;
+  position: relative;
+  width: 99vw;
+}
+
+.leftFlower, .rightFlower {
+  flex: 1;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.leftFlower {
+  background-image: url('/Yoga-Photos/flower-1.svg');
+}
+
+.rightFlower {
+  background-image: url('/Yoga-Photos/flower-1.svg');
+  transform: scaleX(-1);
+}
+
+.reviewContent {
+  flex: 3;
+  text-align: center;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.quote {
+  width: 100%;
+}
+
+.author {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.role {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 1em;
+}
