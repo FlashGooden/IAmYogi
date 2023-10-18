@@ -6,7 +6,6 @@ import { domAnimation, LazyMotion } from "framer-motion";
 import { SlideInFromLeft } from "../../../utils/SlideInFromLeft";
 import HoverColor from "../../../utils/HoverColorCard";
 import Link from "next/link";
-import { FadeAndScale } from "../../../utils/FadeAndScale";
 
 const Services = () => {
   return (
