@@ -21,8 +21,12 @@
   transition: opacity 0.5s ease-in-out;
 }
 
-.image:hover {
+.image:hover, .image:active {
   opacity: 0.2;
+
+  .link {
+    opacity: 1;
+  }
 }
 
 .cardText {
@@ -31,6 +35,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.link {
+  opacity: 0;
 }
 
 @media (min-width: 600px) {

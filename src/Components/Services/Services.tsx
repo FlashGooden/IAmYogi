@@ -6,6 +6,7 @@ import { domAnimation, LazyMotion } from "framer-motion";
 import { SlideInFromLeft } from "../../../utils/SlideInFromLeft";
 import HoverColor from "../../../utils/HoverColorCard";
 import Link from "next/link";
+import { FadeAndScale } from "../../../utils/FadeAndScale";
 
 const Services = () => {
   return (
@@ -30,7 +31,9 @@ const Services = () => {
                 odio sit amet nibh vulputate cursus a sit amet.
               </p>
             </div>
-            <div className={`${styles.servicesCards} mt-20`}>
+            <div
+              className={`${styles.servicesCards} text-center font-semibold mt-20`}
+            >
               <div className={`${styles.serviceCard} inline grid-area-1`}>
                 <HoverColor color={"#1CAB68"} className={`${styles.image}`}>
                   <Image
@@ -41,7 +44,12 @@ const Services = () => {
                     className={`${styles.image}`}
                   />
                   <div className={`${styles.cardText}`}>
-                    <Link href="/rental">HATHA YOGA</Link>
+                    <Link
+                      href="/rental"
+                      className={`${styles.link} transition-opacity duration-300`}
+                    >
+                      HATHA YOGA
+                    </Link>
                   </div>
                 </HoverColor>
               </div>
@@ -55,7 +63,12 @@ const Services = () => {
                     className={`${styles.image}`}
                   />
                   <div className={`${styles.cardText}`}>
-                    <Link href="/rental">VINYASA YOGA </Link>
+                    <Link
+                      href="/rental"
+                      className={`${styles.link} transition-opacity duration-300`}
+                    >
+                      VINYASA YOGA{" "}
+                    </Link>
                   </div>
                 </HoverColor>
               </div>
@@ -69,7 +82,12 @@ const Services = () => {
                     className={`${styles.image}`}
                   />
                   <div className={`${styles.cardText}`}>
-                    <Link href="/rental">INVERSIONS</Link>
+                    <Link
+                      href="/rental"
+                      className={`${styles.link} transition-opacity duration-300`}
+                    >
+                      INVERSIONS
+                    </Link>
                   </div>
                 </HoverColor>
               </div>
@@ -83,7 +101,10 @@ const Services = () => {
                     className={`${styles.image}`}
                   />
                   <div className={`${styles.cardText}`}>
-                    <Link href="/rental">
+                    <Link
+                      href="/rental"
+                      className={`${styles.link} transition-opacity duration-300`}
+                    >
                       CORPORATE/ ORGANIZATIONAL CLASSES
                     </Link>
                   </div>
@@ -99,7 +120,12 @@ const Services = () => {
                     className={`${styles.image}`}
                   />
                   <div className={`${styles.cardText}`}>
-                    <Link href="/rental">PRIVATE CLASSES</Link>
+                    <Link
+                      href="/rental"
+                      className={`${styles.link} transition-opacity duration-300`}
+                    >
+                      PRIVATE CLASSES
+                    </Link>
                   </div>
                 </HoverColor>
               </div>
@@ -113,7 +139,12 @@ const Services = () => {
                     className={`${styles.image}`}
                   />
                   <div className={`${styles.cardText}`}>
-                    <Link href="/rental">PRIVATE YOGA TEAM</Link>
+                    <Link
+                      href="/rental"
+                      className={`${styles.link} transition-opacity duration-300`}
+                    >
+                      PRIVATE YOGA TEAM
+                    </Link>
                   </div>
                 </HoverColor>
               </div>
