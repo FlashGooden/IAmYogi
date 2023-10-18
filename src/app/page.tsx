@@ -6,10 +6,12 @@ import React, { Suspense } from "react";
 import withLazyLoad from "../../utils/withLazyLoad";
 import About from "@/Components/About/About";
 import Cards from "@/Components/Cards/Cards";
+import Reviews from "@/Components/Reviews/Reviews";
 
 const ServicesWithLazyLoad = withLazyLoad(Services);
 const AboutWithLazyLoad = withLazyLoad(About);
 const CardsWithLazyLoad = withLazyLoad(Cards);
+const ReviewsWithLazyLoad = withLazyLoad(Reviews);
 
 export default function Home() {
   return (
@@ -25,7 +27,9 @@ export default function Home() {
       <Suspense fallback={<div>Loading...</div>}>
         <CardsWithLazyLoad />
       </Suspense>
-      <section id="reviews" className="reviews"></section>
+      <Suspense fallback={<div>Loading...</div>}>
+        <ReviewsWithLazyLoad />
+      </Suspense>
       <footer id="footer" className="footer"></footer>
     </main>
   );
